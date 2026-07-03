@@ -8,6 +8,9 @@
     text-decoration: none;
     list-style: none;
 }
+html,body{
+    overflow-x: hidden;
+}
 
 /*header*/
 header {
@@ -57,7 +60,6 @@ header {
 
 .row {
     display: flex;
-    gap: 15px;
 }
 
 .content_left,
@@ -196,7 +198,6 @@ form form>div {
     padding-bottom: 20px;
 }
 form input {
-    width: 317px;
     display: flex;
     padding: 10px 14px;
     border-radius: 8px;
